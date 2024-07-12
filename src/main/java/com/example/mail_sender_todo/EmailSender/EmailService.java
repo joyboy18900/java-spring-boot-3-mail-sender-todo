@@ -19,7 +19,7 @@ public class EmailService {
         message.setTo(toEmail);
         message.setSubject(subject);
         message.setText(body);
-        message.setFrom("tony.ja@gmail.com");
+        message.setFrom("email@example.com");
 
         mailSender.send(message);
     }
@@ -31,7 +31,7 @@ public class EmailService {
         helper.setText(body, true); // true indicates the body is HTML
         helper.setTo(toEmail);
         helper.setSubject(subject);
-        helper.setFrom("tony.ja@gmail.com");
+        helper.setFrom("email@example.com");
 
         mailSender.send(mimeMessage);
     }
