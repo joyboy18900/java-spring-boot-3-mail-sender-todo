@@ -7,6 +7,6 @@
 #    properties:
 #      mail:
 #        smtp:
-#          auth: true
+#          auth: false
 #          starttls:
-#            enable: true
+#            enable: false
